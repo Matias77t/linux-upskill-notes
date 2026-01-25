@@ -14,3 +14,7 @@ ls -la
 - Comprendí la importancia de documentar cada comando y su función  
 - Aprendí a conectar VS Code con WSL y mantener el flujo profesional  
 - Reconocí la diferencia entre **terminal** y **archivo de documentación**
+
+
+
+>Nota: Archivo revisado y actualizado conscientemente. 
