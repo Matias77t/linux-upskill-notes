@@ -31,7 +31,9 @@ ls -l
 - `chmod` → cambia permisos  
 - `chown` → cambia dueño/grupo  
 - `ls -l` → ve permisos y propietarios  
-
+- `echo` "texto" >> archivo.txt → agregar texto a un archivo
+- `su`  usuario → cambiar de usuario
+- `cat` archivo.txt → ver contenido
 ---
 
 
@@ -43,7 +45,6 @@ ls -l
 - `chmod u+x archivo.txt` → da permiso de ejecución al dueño  
 - `sudo chown juan:juan archivo.txt` → cambia dueño y grupo del archivo  
 - `ls -l` → muestra permisos y propietarios de los archivos
-
 
 ## Aprendizajes clave
 
