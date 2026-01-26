@@ -52,3 +52,30 @@ ls -l
 - Aprendí a cambiar permisos y dar ejecución a archivos  
 - Comprendí cómo cambiar dueño y grupo de archivos  
 - Aprendí la importancia de documentar cada paso en el `.md`
+
+---
+
+## Práctica integradora y scripts ejecutables
+
+En la práctica final integré los conceptos de usuarios, permisos y ejecución de archivos.
+
+Aprendí que para **crear o modificar un archivo** no solo importan los permisos del archivo,
+sino también los permisos del **directorio que lo contiene**.  
+Si un usuario no tiene permiso de escritura en el directorio, Linux devuelve `Permission denied`
+aunque el archivo permita escritura.
+
+También comprendí que para ejecutar un archivo como script es necesario:
+
+- Dar permisos de ejecución con `chmod +x`
+- Indicar el intérprete en la primera línea usando el *shebang* (`#!/bin/bash`)
+
+Sin el *shebang*, el sistema intenta ejecutar el contenido del archivo como comandos y falla.
+
+Además practiqué:
+- Cambiar de usuario con `su -`
+- Ver UID y GID con `id`
+- Cambiar dueño y grupo de archivos con `chown`
+- Probar el mismo archivo desde distintos usuarios para entender el control de acceso real
+
+Documentar cada paso en el archivo `.md` me ayudó a fijar los conceptos
+y a entender mejor cómo Linux gestiona seguridad y permisos entre usuarios.
